@@ -1,21 +1,19 @@
 package List::Util::PHP;
 
+use strict;
+use warnings;
+
+use Exporter 'import';
+
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
 
-use strict;
-use warnings;
-
-use Exporter 'import';
 our @EXPORT_OK = qw(
                        in_array
                        is_array
                );
-
-sub in_array {
-}
 
 sub in_array {
 }
